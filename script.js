@@ -5,6 +5,10 @@ let jobTitleVerb = ["building", "designing", "taking things apart", "tinkering",
 let hobbies = ["picking locks", "staying active", "learning new things", "doing other stuff"];
 
 function generate() {
+	let elem = document.getElementById("generate");
+	if (elem.value=="Who Is Ken?") elem.value = "Again?";
+	else elem.value = "Who Is Ken?";
+
 	let newJobTitle = jobTitle[Math.floor(Math.random()*jobTitle.length)];
 	let newColleagues = colleagues[Math.floor(Math.random()*colleagues.length)];
 	let newProducts = products[Math.floor(Math.random()*products.length)];

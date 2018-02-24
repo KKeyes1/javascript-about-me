@@ -1,21 +1,26 @@
 html {
 }
 
+.navbar {
+	background-color: transparent;
+}
+
 .jumbotron {
 	height: 100vh;
 	background-color: #000;
 }
 
-button {
+.btn {
+	background-color: transparent;
+	color: #fff;
+}
+
+#generate {
 	margin: auto;
 	padding: 20px;
-}
-.btn {
 	font-size: xx-large;
 	font-family: 'Roboto Mono', monospace;
 	border: solid 1px white;
-	background-color: transparent;
-	color: #fff;
 }
 
 .card {
@@ -30,8 +35,28 @@ button {
 	40% { box-shadow: 0 0 20px #fff; }
 	60% { box-shadow: 0 0 20px #fff; }
 	100% { box-shadow: 0 0 -10px #fff; }
+	60% { box-shadow: 0 0 20px #fff; }
+	40% { box-shadow: 0 0 20px #fff; }
+	0% { box-shadow: 0 0 -10px #fff; }
 }
 
 .button-glow {
-	animation: glowing 1000ms infinite;
+	animation: glowing 500ms infinite;
+}
+
+.modal-content {
+	color: white;
+	background-color: rgba(0,0,0,.7);
+}
+
+.modal-content input {
+	background-color: rgba(0,0,0,.7);
+}
+
+.modal-content textarea {
+	background-color: rgba(0,0,0,.7);
+}
+
+.modal-content a {
+	color: white;
 }

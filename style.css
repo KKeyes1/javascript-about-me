@@ -1,0 +1,37 @@
+html {
+}
+
+.jumbotron {
+	height: 100vh;
+	background-color: #000;
+}
+
+button {
+	margin: auto;
+	padding: 20px;
+}
+.btn {
+	font-size: xx-large;
+	font-family: 'Roboto Mono', monospace;
+	border: solid 1px white;
+	background-color: transparent;
+	color: #fff;
+}
+
+.card {
+	font-family: 'Roboto Mono', monospace;
+	background-color: transparent;
+	color: white;
+	font-size: large;
+}
+
+@keyframes glowing {
+	0% { box-shadow: 0 0 -10px #fff; }
+	40% { box-shadow: 0 0 20px #fff; }
+	60% { box-shadow: 0 0 20px #fff; }
+	100% { box-shadow: 0 0 -10px #fff; }
+}
+
+.button-glow {
+	animation: glowing 1000ms infinite;
+}

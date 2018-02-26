@@ -48,8 +48,8 @@
 					<p>I am always looking for opportunities for new challenges and experiences, check out some of my other skills and reach out if you would like to know more.</p>
 					<p><span id="signOff">Thank you,</span></p>
 					<p>-<span id="name"></span></p>
-					<input type="button" class="btn btn-lg btn-default button-glow" id="generate" onclick="generate()" value="New"></input>
-					<input type="button" class="btn btn-lg btn-default button-glow" id="learnMore" value="Learn More"></input>
+					<input type="button" class="btn btn-lg btn-default button-glow border" id="generate" onclick="generate()" value="New"></input>
+					<input type="button" class="btn btn-lg btn-default button-glow border" id="learnMore" value="Learn More"></input>
 				</div>
 			</div>
 		</div>

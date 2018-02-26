@@ -44,7 +44,7 @@
 		<nav class="navbar fixed-bottom navbar-dark">
 				<ul class="navbar-nav mx-auto">
 					<li class="nav-item m-5">
-						<button class="btn nav-link" data-toggle="modal" data-target="#myModal"><i class="fas fa-envelope fa-3x"></i></button>
+						<button class="btn nav-link text-white" data-toggle="modal" data-target="#myModal"><i class="fas fa-envelope fa-3x"></i></button>
 					</li>
 				</ul>
 		</nav>

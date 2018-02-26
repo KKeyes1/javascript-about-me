@@ -121,14 +121,14 @@
 
 
 		<div class="jumbotron m-0">
-			<div class="container h-100 d-flex">
+			<div class="container h-100 d-flex text-white">
 				<div class="my-auto mx-auto">
 					<div class="text-center">
 						<h3>Who is Ken?</h3>
 						<p>To learn about me, press Play.</p>
 					</div>
 					<div class="text-center">
-						<input type="button" class="btn btn-lg btn-default button-glow" id="play" onclick="location.href='/php':" value="PLAY"></input>
+						<input type="button" class="btn btn-lg btn-default button-glow" id="play" onclick="location.href ='https://bootcamp-coders.cnm.edu/~kkeyes1/javascript-about-me/php/';" value="PLAY"></input>
 					</div>
 				</div>
 			</div>

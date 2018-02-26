@@ -120,7 +120,7 @@
 
 
 
-		<div class="jumbotron m-0">
+		<div class="jumbotron m-0 rounded-0">
 			<div class="container h-100 d-flex text-white">
 				<div class="my-auto mx-auto">
 					<div class="text-center">

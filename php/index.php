@@ -33,7 +33,7 @@
 		<title>About Me</title>
 	</head>
 	<body>
-		<div class="jumbotron m-0">
+		<div class="jumbotron m-0 rounded-0">
 			<div class="container h-100 d-flex text-white">
 				<div class="my-auto">
 					<h3>Who Is Ken?</h3>

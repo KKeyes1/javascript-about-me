@@ -1,4 +1,9 @@
-html {
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+span {
+	color: deeppink;
 }
 
 .navbar {
@@ -15,19 +20,11 @@ html {
 	color: #fff;
 }
 
-#generate {
+#play {
 	margin: auto;
 	padding: 20px;
 	font-size: xx-large;
-	font-family: 'Roboto Mono', monospace;
 	border: solid 1px white;
-}
-
-.card {
-	font-family: 'Roboto Mono', monospace;
-	background-color: transparent;
-	color: white;
-	font-size: large;
 }
 
 @keyframes glowing {
@@ -58,5 +55,16 @@ html {
 }
 
 .modal-content a {
+	color: white;
+}
+
+#sendButton {
+	background-color: white;
+	color: black;
+}
+
+#sendButton:hover {
+	border: solid 1px white;
+	background-color: transparent;
 	color: white;
 }
